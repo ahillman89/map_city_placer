@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d73b82c8ba476277ade4e665876a83f3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d73b82c8ba476277ade4e665876a83f3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d73b82c8ba476277ade4e665876a83f3 = L.map(
+                "map_d73b82c8ba476277ade4e665876a83f3",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74669923111ae887728b13e27f6d256d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            var marker_8c7ae4d397bc721807e00ef3b9b041ef = L.marker(
+                [39.5261206, -119.8126581],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_8c7ae4d397bc721807e00ef3b9b041ef.bindTooltip(
+                `<div>
+                     Reno, NV
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73e4210ee1d53a401aab4e4a65f6b9f9 = L.marker(
+                [42.3315509, -83.0466403],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_73e4210ee1d53a401aab4e4a65f6b9f9.bindTooltip(
+                `<div>
+                     Detroit, MI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_087f928488c36076a75a67585b844262 = L.marker(
+                [37.7790262, -122.419906],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_087f928488c36076a75a67585b844262.bindTooltip(
+                `<div>
+                     San Francisco, CA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dea6713db8f591a69c9dfb656cf84124 = L.marker(
+                [30.2711286, -97.7436995],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_dea6713db8f591a69c9dfb656cf84124.bindTooltip(
+                `<div>
+                     Austin, TX
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba181cca90071e7355ec04e32cf34230 = L.marker(
+                [25.7741728, -80.19362],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_ba181cca90071e7355ec04e32cf34230.bindTooltip(
+                `<div>
+                     Miami, FL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cab25f92d55bbe78d780ac3cee58e398 = L.marker(
+                [47.6038321, -122.330062],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_cab25f92d55bbe78d780ac3cee58e398.bindTooltip(
+                `<div>
+                     Seattle, WA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d38b385afc15166aee2bb66284e6685e = L.marker(
+                [39.7392364, -104.984862],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_d38b385afc15166aee2bb66284e6685e.bindTooltip(
+                `<div>
+                     Denver, CO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24a34d43528f8365dcd240f905b20d35 = L.marker(
+                [41.8755616, -87.6244212],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_24a34d43528f8365dcd240f905b20d35.bindTooltip(
+                `<div>
+                     Chicago, IL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e527b6daffaed61b86fc154949b1efe4 = L.marker(
+                [42.3554334, -71.060511],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_e527b6daffaed61b86fc154949b1efe4.bindTooltip(
+                `<div>
+                     Boston, MA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0dfe87ba7daf67d4635f225674169c71 = L.marker(
+                [36.1622767, -86.7742984],
+                {}
+            ).addTo(map_d73b82c8ba476277ade4e665876a83f3);
+        
+    
+            marker_0dfe87ba7daf67d4635f225674169c71.bindTooltip(
+                `<div>
+                     Nashville, TN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
